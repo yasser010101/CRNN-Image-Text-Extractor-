@@ -1,4 +1,4 @@
-# CRNN-Image-Text-Extractor-
+# CRNN-Image-Text-Extractor
 Python program that can extract texts from image or screen by lowering the noise in the image then processing it by CRNN.
 
 This script acts as a customized OCR pipeline specifically tuned for reading low-resolution system displays or terminal screens. It begins by pre-processing the raw image to maximize legibility; it doubles the image size and isolates the green color channel to ensure the text stands out sharply against dark backgrounds.
